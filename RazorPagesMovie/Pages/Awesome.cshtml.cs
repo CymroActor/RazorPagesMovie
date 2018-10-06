@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPagesMovie.Pages
 {
-    public class ContactModel : PageModel
+    public class AwesomeModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Your contact page - for Gareth Saunders.";
+            Message = "Your awesome page - for Gareth Saunders.";
         }
     }
 }
